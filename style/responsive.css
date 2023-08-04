@@ -1,0 +1,132 @@
+@media (max-width:991.98px){
+    .main_menu li a {
+        line-height: 20px;
+        padding-left: 0px;
+        display: inline-block;
+        margin: 5px 0;
+        padding: 5px 0;
+    }
+    #navbar ul{
+        margin-top: 20px !important;
+    }
+}
+@media (max-width:767.98px){
+    /* banner part start */
+    #banner .banner_info h1 {
+        font-size: 100px;
+    }
+    #banner .banner_info h1::after {
+        width: 500px;
+    }
+    #banner .banner_info p {
+        font-size: 18px;
+    }
+    /* banner part end */
+    #contact .name input {
+        padding-right: 150px;
+        /* padding: 20px 20px; */
+     }
+     /* section4 start */
+     #section-4 .section4_heading h2 {
+        font-size: 38px;
+    }
+    /* section4 end */
+}
+@media (max-width:575.98px){
+    /* navbar part start */
+    #navbar{
+       
+    }
+    #navbar.sticky_menu{
+        background-color: #2edbdb !important;
+    }
+    .main_menu li a {
+        line-height: 20px;
+        padding-left: 0px;
+        display: inline-block;
+        margin: 5px 0;
+        padding: 5px 0;
+    }
+    /* navbar part end */
+
+    /* banner part start */
+    #banner .banner_info h1 {
+        font-size: 80px;
+    }
+    #banner .banner_info h1::after {
+        width: 300px
+    }
+    #banner .banner_info p {
+        font-size: 16px;
+        padding-top: 20PX;
+    }
+    .common_btn a {
+        padding: 10px 25px;
+    }
+    #info h2 {
+        font-size: 34px;
+    }
+    /* banner part end */
+
+    /* section2 start */
+    #info p {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 0 20px;
+    }
+    /* section2 end */
+
+    /* section3 start */
+    #section-3 .text p{
+        padding: 0px 15px 30px;
+    }
+    /* section3 end */
+
+    /* section4 start */
+    #section-4 .section4_heading h2 {
+        font-size: 28px;
+    }
+    /* section4 end */
+
+    /* contact part start */
+    #contact .name input {
+       padding-right: 100px;
+       /* padding: 20px 20px; */
+    }
+    /* contact part end */
+
+    /* footer part start */
+    #footer .footer_main .copy_info {
+        justify-content: center;
+    }
+    #footer .footer_main .link_item {
+        justify-content: center;
+        margin-top: 15px;
+    }
+    #footer .link_item .item {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+    }
+    /* footer page end */
+}
+@media (max-width:419.98px){
+     /* section2 start */
+     #info h2 {
+        font-size: 30px;
+    }
+     /* section2 end */
+
+     /* section4 start */
+     #section-4 .section4_heading h2 {
+        font-size: 22px;
+    }
+     /* section4 end */
+
+     /* contact part start */
+     #contact .name input {
+        padding-right: 20px;
+        /* padding: 20px 20px; */
+     }
+     /* contact part end */
+}
